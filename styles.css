@@ -83,20 +83,16 @@ position:absolute;
 bottom:60px;
 right:120px;
 
-background:rgba(80,80,80,0.8);
-
-padding:15px 40px;
-
 display:flex;
 gap:40px;
 
-border-radius:4px;
-
 }
+
+/* LINKS DEL MENÚ */
 
 .menu a{
 
-color:white;
+color:#1c0a08;
 
 text-decoration:none;
 
@@ -190,8 +186,6 @@ font-size:40px;
 
 gap:20px;
 
-padding:12px 20px;
-
 }
 
 }
@@ -214,6 +208,8 @@ gap:10px;
 
 bottom:30px;
 
+right:40px;
+
 }
 
 .menu a{
@@ -234,6 +230,4 @@ font-size:32px;
 
 }
 
-
 }
-
