@@ -1,0 +1,239 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:Arial, Helvetica, sans-serif;
+color:#222;
+
+}
+
+/* HEADER / HERO */
+
+.hero{
+
+height:100vh;
+
+background-image:url("img/header.jpg");
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+position:relative;
+
+}
+
+/* LOGIN SUPERIOR */
+
+.top-menu{
+
+position:absolute;
+
+top:25px;
+right:40px;
+
+}
+
+.top-menu a{
+
+color:white;
+text-decoration:none;
+
+margin-left:20px;
+
+font-size:14px;
+font-weight:bold;
+
+}
+
+/* TEXTO CENTRAL HEADER */
+
+.hero-content{
+
+color:white;
+text-align:center;
+
+}
+
+.hero-content h1{
+
+font-size:60px;
+letter-spacing:3px;
+
+}
+
+/* MENÚ PRINCIPAL */
+
+.menu{
+
+position:absolute;
+
+bottom:50px;
+left:50%;
+
+transform:translateX(-50%);
+
+background:rgba(0,0,0,0.6);
+
+padding:15px 40px;
+
+display:flex;
+gap:40px;
+
+border-radius:6px;
+
+}
+
+.menu a{
+
+color:white;
+
+text-decoration:none;
+
+font-size:16px;
+font-weight:bold;
+
+transition:0.3s;
+
+}
+
+.menu a:hover{
+
+opacity:0.7;
+
+}
+
+/* SECCIONES GENERALES */
+
+section{
+
+min-height:80vh;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+text-align:center;
+
+padding:80px 20px;
+
+}
+
+section h2{
+
+font-size:48px;
+
+}
+
+/* MARCAS */
+
+.brands{
+
+background:#555;
+color:white;
+
+}
+
+/* SOBRE NOSOTROS */
+
+.about{
+
+background:#e0e0e0;
+
+}
+
+/* TRABAJOS */
+
+.works{
+
+background:#d0d0d0;
+
+}
+
+/* ESTUDIO */
+
+.studio{
+
+background:#c0c0c0;
+
+}
+
+/* CONTACTO */
+
+.contact{
+
+background:#b0b0b0;
+
+}
+
+/* RESPONSIVE TABLET */
+
+@media (max-width:900px){
+
+.hero-content h1{
+
+font-size:40px;
+
+}
+
+.menu{
+
+gap:20px;
+
+padding:12px 20px;
+
+}
+
+}
+
+/* RESPONSIVE MÓVIL */
+
+@media (max-width:600px){
+
+.hero-content h1{
+
+font-size:30px;
+
+}
+
+.menu{
+
+flex-direction:column;
+
+gap:10px;
+
+bottom:30px;
+
+}
+
+.menu a{
+
+font-size:14px;
+
+}
+
+.top-menu{
+
+right:20px;
+
+}
+
+section h2{
+
+font-size:32px;
+
+}
+
+}
